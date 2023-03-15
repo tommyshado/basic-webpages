@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            background-color: #FEFAE0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+
+        .main-class {
+            /* making the main to appear in the center */
+            text-align: center;
+            padding-top: 250px;
+        }
+
+        /* styling the button */
+        /* removing list dots */
+        .linking li {
+            list-style: none;
+        }
+
+        /* adding a block and spaces */
+        .linking a {
+            /* helps us to make our block bigger */
+            padding: 1em;
+            margin: 1em;
+            display: block;
+            width: 6em;
+            /* changing href color */
+            color: black;
+        }
+
+        /* hover */
+        .linking a:hover {
+            /* adding a background color */
+            background-color: #BC6C25;
+            color: black;
+        }
+
+        .linking {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* remove hyperlink underline */
+        .linking a:link {
+            text-decoration: none; 
+        }
+
+        /* using flexbox to make the web page responsive */
+        /* for desktop webpage */
+        @media (min-width: 768px) {
+            .linking {
+                padding-left: 0;
+            }
+        }
+    
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main-class">
+            <h1>Click Below and take an adventure to Mthunzi Tom's personal webpages:</h1>
+            <ul class="linking">
+                <li><a href="/my-webpage/my-webpage.html">FlexBox</a></li>
+                <li><a href="/web-page-grid/my-webpage-grid.html">CSS Grid</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

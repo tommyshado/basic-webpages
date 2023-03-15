@@ -1,0 +1,165 @@
+<!-- here we will be using html and simple grid -->
+<!-- in simple grid we don't write css, it is given to us -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="simple-grid.css">
+
+    <style>
+        body {
+            background-color: #F1FAEE;
+        }
+
+        table {
+            padding: 0.5em;
+        }
+
+        td, th {
+            border: 2px solid #1D3557;
+        }
+
+        #rome-pic {
+            width: 80%;
+        }
+
+        #box-model {
+            padding: 1em;
+            margin: 1em;
+            margin-left: 0em;
+            margin-bottom: 1em;
+            border-radius: 0.5em;
+        }
+
+        table {
+            width: 100%;
+        }
+        
+    </style>
+
+    <title>my-webpage-grid</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-6">
+                <h1 id="box-model">Mthunzi Tom</h1>
+            </div>
+            
+            <div class="col-6">
+                <img src="../pictures/image.jpeg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+
+        <div class="row">
+            <h2>I would like to visit Rome, Italy.</h2>
+
+            <div class="col-6">
+                <img id="rome-pic" src="/pictures/caleb-miller-0Bs3et8FYyg-unsplash (1).jpg" alt="">
+            </div>
+
+            <div class="col-6">
+                <ul>
+                    <li>Rome has a museum dedicated entirely to pasta.</li>
+                    <li>The first ever shopping mall was built in Rome between 107 and 110 AD by Emperor Trajan.</li> 
+                    <li>It sold a wide variety of goods and grocery items.</li>
+                    <li>Rome's first university, La Sapienza, established in 1303 AD, is the largest in Europe and the second largest in the world.</li>
+                    <li>Nearly 700,000 euros worth of coins are tossed into Rome's Trevi Fountain each year. The proceeds are donated to Caritas to help those in need.</li>
+                </ul>
+            </div>
+        </div>
+
+        
+        <div class="sub-main">
+            <h2>I would like to learn French language.</h2>
+            
+            <p>
+                French is becoming more and more relevant in South Africa because it is an important international language, spoken by more than 200 million people, as well as being the official language of several 
+                African countries. It is a language of business, arts and culture and diplomacy.
+            </p>
+
+            <table>
+                <tr>
+                    <th>English:</th>
+                    <th>French:</th>
+                </tr>
+                <tr>
+                    <td>Hello, my name is Mthunzi Sidwell Tom.</td>
+                    <td>Bonjour, je m'appelle Mthunzi Sidwell Tom.</td>
+                </tr>
+                <tr>
+                    <td>I love to eat.</td>
+                    <td>J'adore manger.</td>
+                </tr>
+                <tr>
+                    <td>I also love computers.</td>
+                    <td>J'aime aussi les ordinateurs.</td>
+                </tr>
+            </table>
+        </div>
+
+        <h2>Historic places to visit in my city.</h2>
+        
+
+        <div class="row">
+            <div class="col-4">
+                <h2>District Six Museum</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>The District Six Museum Foundation was only established in 1989, and the museum itself came into being in 1994. Currently, the museum serves as a remembrance of the once lively multi-racial area that was forcefully removed during apartheid in the 1960s and 1970s.</li>
+                            <li>The museum came into being as a vehicle for advocating social justice, as a space for reflection and contemplation, and as an institution for challenging the distortions and half-truths which propped up the history of Cape Town and South Africa.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6">
+                        <img src="/pictures/district.jpeg" width="100%">
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-4">
+                <h2>Castle of good hope</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>The first stone was laid on 2 January 1666 and it was completed by April 1679.</li>
+                            <li>The materials used to build the Castle were local and included rock cut from the granite outcrop on Signal Hill, and blue slate and shells - transported from Robben Island.</li>
+                            <li>The Castle was built by soldiers, volunteers, slaves and Khoi undergoing punishment. The building housed everything from a church, bakery and living quarters, to various workshops, shops and prison cells, among other facilities.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6">
+                        <img src="/pictures/castle.jpeg" width="100%">
+                    </div>
+                </div>
+            
+            </div>
+
+            <div class="col-4">
+                <h2>City hall</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>Nelson Mandela made his first free speech from a balcony at the Cape Town City Hall in 1990.</li>
+                            <li>The Hall itself is made up of components from all over the world. The honey-coloured stone, which makes up its façade of limestone, was imported from Bath in England.</li>
+                            <li>The tower houses a clock and a number of bells, modelled on the famous Big Ben.</li> 
+                            <li>The clock strikes the hours and chimes the Westminster quarters, which is a particular chime originating from St Mary's Cathedral in England.</li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-6">
+                        <img src="/pictures/city-hall.jpeg" width="100%">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
