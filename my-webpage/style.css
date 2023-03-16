@@ -1,5 +1,5 @@
 body {
-    background-color: #E07A5F;
+    background-color: #98F5E1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 0;
     padding-right: 1em;
@@ -9,7 +9,7 @@ body {
 /* designing intro section */
 
 #intro-section {
-    background-color: #81B29A;
+    background-color: #F1C0E8;
 }
 
 /* styling image */
@@ -36,7 +36,7 @@ body {
 /* which city section */
 
 #which-city {
-    background-color: #81B29A;
+    background-color: #F1C0E8;
 }
 
 .row4 {
@@ -46,24 +46,24 @@ body {
 /* language section */
 
 #lang-section {
-    background-color: #F4F1DE;
+    background-color: #FDE4CF;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    border: 2px solid #81B29A;
+    border: 2px solid #A3C4F3;
     padding: 0.5em
 }
 
 th, td {
-    border: 2px solid #81B29A;
+    border: 2px solid #A3C4F3;
 }
 
 /* historic places section */
 
 #historic-places {
-    background-color: #F4F1DE;
+    background-color: #FDE4CF;
 }
 
 #my-image2 {
@@ -92,7 +92,7 @@ th, td {
 /* For smaller screens */
 @media screen and (max-width: 768px) {
     body {
-        padding: 1em;
+        padding: 0em;
     }
 
     /* intro section */

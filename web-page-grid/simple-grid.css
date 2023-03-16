@@ -186,6 +186,10 @@ p {
   .container {
     width: 80%;
   }
+
+  #row-flex {
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width: 45em) {  /* 720px */
