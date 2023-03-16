@@ -1,7 +1,8 @@
 /* using css to flex the columns in historical places */
-@media (max-width:540px) {
+@media (max-width:719px) {
     #flex {
-        display: flex;
-        flex-direction: column;
+        /* !important helps us to not overide the current class or id */
+        display: flex !important;
+        /* flex-direction: column; */
     }
 }

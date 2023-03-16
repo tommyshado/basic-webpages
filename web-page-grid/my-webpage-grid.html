@@ -39,6 +39,14 @@
         table {
             width: 100%;
         }
+
+        /* using css to flex the columns in historical places */
+        /* @media (max-width:540px) {
+            #flex {
+                display: flex;
+                flex-direction: column;
+            }
+        } */
         
     </style>
 
@@ -107,13 +115,13 @@
         <h2>Historic places to visit in my city.</h2>
         
 
-        <div id="flex" class="row">
+        <div class="row">
             <div class="col-4">
                 <h2>District Six Museum</h2>
-                <div class="row">
+                <div id="flex" class="row">
                     <div class="col-6">
                         <ul>
-                            <li>The District Six Museum Foundation was only established in 1989, and the museum itself came into being in 1994. Currently, the museum serves as a remembrance of the once lively multi-racial area that was forcefully removed during apartheid in the 1960s and 1970s.</li>
+                            <li>The District Six Museum Foundation was only established in 1989, and the museum itself came into being in 1994.</li>
                             <li>The museum came into being as a vehicle for advocating social justice, as a space for reflection and contemplation, and as an institution for challenging the distortions and half-truths which propped up the history of Cape Town and South Africa.</li>
                         </ul>
                     </div>
@@ -126,12 +134,13 @@
         
             <div class="col-4">
                 <h2>Castle of good hope</h2>
-                <div class="row">
-                    <div class="col-6">
+                <div id="flex" class="row">
+                    <!-- using order helps me to be able to change positions of containers -->
+                    <div style="order: 2 !important;" class="col-6">
                         <ul>
                             <li>The first stone was laid on 2 January 1666 and it was completed by April 1679.</li>
                             <li>The materials used to build the Castle were local and included rock cut from the granite outcrop on Signal Hill, and blue slate and shells - transported from Robben Island.</li>
-                            <li>The Castle was built by soldiers, volunteers, slaves and Khoi undergoing punishment. The building housed everything from a church, bakery and living quarters, to various workshops, shops and prison cells, among other facilities.</li>
+                            <li>The Castle was built by soldiers, volunteers, slaves and Khoi undergoing punishment.</li>
                         </ul>
                     </div>
     
@@ -144,13 +153,12 @@
 
             <div class="col-4">
                 <h2>City hall</h2>
-                <div class="row">
+                <div id="flex" class="row">
                     <div class="col-6">
                         <ul>
                             <li>Nelson Mandela made his first free speech from a balcony at the Cape Town City Hall in 1990.</li>
                             <li>The Hall itself is made up of components from all over the world. The honey-coloured stone, which makes up its façade of limestone, was imported from Bath in England.</li>
                             <li>The tower houses a clock and a number of bells, modelled on the famous Big Ben.</li> 
-                            <li>The clock strikes the hours and chimes the Westminster quarters, which is a particular chime originating from St Mary's Cathedral in England.</li>
                         </ul>
                     </div>
     
