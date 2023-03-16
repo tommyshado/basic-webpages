@@ -1,0 +1,7 @@
+/* using css to flex the columns in historical places */
+@media (max-width:540px) {
+    #flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
