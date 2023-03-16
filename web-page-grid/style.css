@@ -5,4 +5,8 @@
         display: flex !important;
         /* flex-direction: column; */
     }
+    #center-content {
+        align-items: center;
+        text-align: center; 
+      }
 }
