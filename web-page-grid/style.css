@@ -1,12 +1,73 @@
+body {
+    width: 100%;
+    background-color: #F1FAEE;
+    margin: 0rem;
+}
+
+
+#intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+
+table {
+    padding: 0.5em;
+}
+
+td, th {
+    border: 2px solid #1D3557;
+}
+
+#rome-pic {
+    width: 80%;
+}
+
+#box-model {
+    padding: 1em;
+    margin: 1em;
+    margin-left: 0em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+table {
+    width: 100%;
+}
+
+.my-container {
+    margin: 3rem;
+}
+
+ /* wrap the text around the images */
+ /* .wrap {
+    float: left;
+    padding: 0 20px 20px 0;
+} */
+
+.wrap-left {
+    float: left;
+}
+
+
 /* using css to flex the columns in historical places */
 @media (max-width:719px) {
+    body {
+        margin: 0;
+    }
+    #intro-section {
+        display: block !important;
+    }
+
     #flex {
         /* !important helps us to not overide the current class or id */
         display: flex !important;
-        /* flex-direction: column; */
     }
     #center-content {
+        display: flex;
+        flex-direction: column;
         align-items: center;
         text-align: center; 
-      }
+    }
 }
