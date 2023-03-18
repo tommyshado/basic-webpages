@@ -32,6 +32,10 @@ td, th {
     border-radius: 0.5em;
 }
 
+.box-model02 {
+    margin-right: 20px;
+}
+
 table {
     width: 100%;
 }
@@ -39,12 +43,6 @@ table {
 .my-container {
     margin: 3rem;
 }
-
- /* wrap the text around the images */
- /* .wrap {
-    float: left;
-    padding: 0 20px 20px 0;
-} */
 
 .wrap-left {
     float: left;
@@ -67,6 +65,7 @@ table {
     #center-content {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         text-align: center; 
     }

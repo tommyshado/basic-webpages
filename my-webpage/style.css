@@ -1,80 +1,108 @@
-
 body {
-    font-family: fantasy;
+    background-color: #FFA69E;
     font-size: 1rem;
 }
 
-/* styling the intro section */
-/* displaying flex to put image along side name */
-.row {
+/* spaces around the containers */
+.box-model {
+    margin: 20px;
+    padding: 10px;
+}
+/* spaces between the containers and between titles and paragraphs and images */
+.box-model2 {
+    margin-bottom: 20px;
+}
+
+.box-model3 {
+    margin-left: 20px;
+}
+
+.box-model5 {
+    margin-left: 20px;
+}
+
+/* ################################################################################# Header ######################################################################################################## */
+
+header {
     display: flex;
-    /* center the intro section */
     justify-content: center;
     align-items: center;
-}
-
-/* using flex to separate my name and intro image classes */
-.my-name {
-    flex: 1;
     text-align: center;
+    margin-right: 25% !important;
 }
 
-/* now I am bring the image closer to the name text */
-.intro-image {
+header h1 {
+    flex: 2;
+}
+
+#img01 {
     flex: 1;
 }
 
-/*  styling which city */
-.container-flex {
-    display: flex;
 
+
+/* ############################################################################### Main section #################################################################################################### */
+
+.city {
+    display: flex;
 }
 
 table {
+    /* joining the border */
+    border-collapse: collapse;
     width: 100%;
 }
 
 td, th {
-    border: 1px solid black;
-}
-
-#place-text {
-    margin: 1rem;
+    border: 1px solid black
 }
 
 
-@media (max-width:720px) {
+/* ################################################################################ Historical section ################################################################################################ */
+
+/* flex the outer container */
+.container03 {
+    display: flex;
+}
+/* flex the inner container */
+.flex-inner {
+    display: flex;
+}
+
+
+/* ################################################################################ Media Queries #################################################################################################### */
+
+@media (max-width:855px) {
     body {
-        font-size: 1em;
-    }
-    /* avoiding repeatition */
-    #flex-col {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    /* making the name to be on top of the image */
-    #centered {
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-
-    /* which city */
-
-    table {
-        width: 100%;
+    /* header */
+    header {
+        flex-direction: column;
+        /* fixing the margin-right and displaying the content to the center
+           since we set it to margin-right now we kinda reset */
+        margin-left: 25%;
     }
-
-    /* historical places */
-    .row-reverse { 
-        display: flex; 
+    /* main section */
+    .city {
+        flex-direction: column;
+        /* kinda repeating here, i'll fix it later */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    /* historical section */
+    .container03 {
+        flex-direction: column;
+    }
+    /* reversing the row */
+    .row-reverse {
         flex-direction: row-reverse;
     }
-    .container{
-        padding: 2rem;
+    .box-model4 {
+        margin-right: 20px;
     }
-}
 
+}
