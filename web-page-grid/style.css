@@ -13,6 +13,7 @@ body {
 } 
 
 table {
+    border-collapse: collapse;
     padding: 0.5em;
 }
 
@@ -44,8 +45,8 @@ table {
     margin: 3rem;
 }
 
-.wrap-left {
-    float: left;
+#city-hall {
+    width: 100%;
 }
 
 
@@ -54,6 +55,12 @@ table {
     body {
         margin: 0;
     }
+
+    #profile-img {
+        border-radius: 2em;
+        width: 100%;
+    }
+
     #intro-section {
         display: block !important;
     }
@@ -69,4 +76,12 @@ table {
         align-items: center;
         text-align: center; 
     }
+
+    #row-reverse {
+        flex-direction: row-reverse;
+        float: right;
+    }
+    
+
 }
+

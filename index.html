@@ -44,6 +44,7 @@
 
         .linking {
             display: flex;
+            flex-direction: row;
             justify-content: center;
             align-items: center;
         }
@@ -55,8 +56,9 @@
 
         /* using flexbox to make the web page responsive */
         /* for a small device webpage */
-        @media (min-width: 768px) {
+        @media (max-width: 768px) {
             .linking {
+                flex-direction: column;
                 padding-left: 0;
             }
         }
