@@ -49,6 +49,10 @@ table {
     width: 100%;
 }
 
+.float-left {
+    float: left;
+}
+
 
 /* using css to flex the columns in historical places */
 @media (max-width:719px) {
@@ -65,10 +69,7 @@ table {
         display: block !important;
     }
 
-    #flex {
-        /* !important helps us to not overide the current class or id */
-        display: flex !important;
-    }
+   
     #center-content {
         display: flex;
         flex-direction: column;
@@ -77,11 +78,8 @@ table {
         text-align: center; 
     }
 
-    #row-reverse {
-        flex-direction: row-reverse;
+    .row-reverse {
         float: right;
     }
-    
-
 }
 
