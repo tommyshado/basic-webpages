@@ -81,5 +81,9 @@ table {
     .row-reverse {
         float: right;
     }
+
+    .city-hall2 {
+        margin-left: 1rem;
+    }
 }
 
